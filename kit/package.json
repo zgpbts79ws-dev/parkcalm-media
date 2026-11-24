@@ -1,0 +1,10 @@
+{
+  "name": "parkcalm-instagram-kit",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "puppeteer-core": "^25.18.1"
+  }
+}

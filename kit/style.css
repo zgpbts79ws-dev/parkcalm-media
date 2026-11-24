@@ -1,0 +1,35 @@
+/* Shared by every post HTML file in posts/ and examples/. Link it as ../style.css */
+@font-face{font-family:'Plus Jakarta Sans';font-weight:800;src:url('node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-800-normal.woff2') format('woff2')}
+@font-face{font-family:'Plus Jakarta Sans';font-weight:700;src:url('node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:400;src:url('node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:600;src:url('node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:700;src:url('node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2') format('woff2')}
+body{margin:0}
+.post{width:1080px;height:1350px;box-sizing:border-box;padding:96px;font-family:Inter,system-ui,sans-serif;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;--accent:#2C9688}
+/* Backgrounds: rotate so two posts in a row never share one */
+.teal{background:linear-gradient(160deg,#2C9688 0%,#31B3A0 100%);color:#fff;--accent:#D8F6F0}
+.cream{background:#F6F3EC;color:#101318;--accent:#2C9688}
+.ink{background:#101318;color:#fff;--accent:#31C4B0}
+/* Christmas posts (until 10 January): amber accent instead of teal */
+.xmas.teal{--accent:#FFD27A}.xmas.cream{--accent:#C9741A}.xmas.ink{--accent:#F5A524}
+.kicker{font-size:26px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--accent)}
+h1{margin:0;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:96px;line-height:1.04;letter-spacing:-2px}
+.big{font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;letter-spacing:-3px;line-height:1}
+.accent{color:var(--accent)}
+.sub{font-size:40px;line-height:1.35}
+.row{font-size:42px;font-weight:600;padding:22px 0;border-top:2px solid currentColor}
+.row:last-child{border-bottom:2px solid currentColor}
+.row small{display:block;font-size:30px;font-weight:400;opacity:.8;margin-top:6px}
+.line{font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:700;font-size:44px;line-height:1.2;color:var(--accent)}
+/* Footer: logo + name left, web address right */
+.foot{display:flex;justify-content:space-between;align-items:center;font-size:32px;font-weight:600}
+.brand{display:flex;align-items:center;gap:18px;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:36px;letter-spacing:-.5px}
+.logo{width:60px;height:60px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans',Inter,sans-serif;font-weight:800;font-size:36px;background:linear-gradient(135deg,#2C9688,#31C4B0);color:#fff}
+.teal .logo{background:#fff;color:#2C9688}
+/* Screenshot explainer */
+.post.shot{padding:72px 90px}
+.post.shot h1{font-size:72px}
+.shotwrap{display:flex;justify-content:center}
+.shotwrap img{display:block;max-width:900px;max-height:700px;border-radius:36px;box-shadow:0 24px 60px rgba(0,0,0,.28)}
+.cream .shotwrap img{box-shadow:0 24px 60px rgba(16,19,24,.22),0 0 0 2px rgba(16,19,24,.06)}
+.note{font-size:34px;line-height:1.35}
