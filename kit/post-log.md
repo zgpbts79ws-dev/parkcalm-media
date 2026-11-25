@@ -13,5 +13,7 @@ Times are Europe/Madrid. One row per post. Status: queued (pushed to parkcalm/ i
 | 2026-11-27 | b (7:00 PM) | tip | teal | Hoy empiezan los días fuertes. | - | first peak day: traffic plan | queued |
 | 2026-11-28 | a (2:00 PM) | explainer | cream | ¿Puede entrar tu coche en la ZBE? | zbe-check | ZBE label check | queued |
 | 2026-11-28 | b (7:00 PM) | tip | ink | A Laxe, por hora. | - | cheapest car park | queued |
+| 2026-11-29 | a (2:00 PM) | explainer | teal | Dónde es más fácil aparcar en la calle. | live-map | street parking map + ZBE outline | queued |
+| 2026-11-29 | b (7:00 PM) | tip | cream | Zona azul: hoy gratis, mañana no. | - | peak day 30 Nov: zona azul free Sunday, paid Monday | queued |
 
-Screenshots not yet used: live-map, zbe-page
+Screenshots not yet used: zbe-page
