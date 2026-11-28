@@ -15,5 +15,11 @@ Times are Europe/Madrid. One row per post. Status: queued (pushed to parkcalm/ i
 | 2026-11-28 | b (7:00 PM) | tip | ink | A Laxe, por hora. | - | cheapest car park | queued |
 | 2026-11-29 | a (2:00 PM) | explainer | teal | Dónde es más fácil aparcar en la calle. | live-map | street parking map + ZBE outline | queued |
 | 2026-11-29 | b (7:00 PM) | tip | cream | Zona azul: hoy gratis, mañana no. | - | peak day 30 Nov: zona azul free Sunday, paid Monday | queued |
+| 2026-11-30 | a (2:00 PM) | explainer | ink | Mira dónde empieza la ZBE de Vigo. | zbe-page | ZBE zones map | queued |
+| 2026-11-30 | b (7:00 PM) | tip | teal | Hoy puede haber filtros de acceso. | - | peak day 30 Nov: access filters Vialia/Urzáiz/Vía Norte | queued |
+| 2026-12-01 | a (2:00 PM) | explainer | cream | Compara precio y ocupación de un vistazo. | garage-list | compare price and occupancy (reused shot) | queued |
+| 2026-12-01 | b (7:00 PM) | tip | ink | ¿Con niños? Aparca fuera del centro. | - | peak day 1 Dec: family, park outside centre | queued |
+| 2026-12-02 | a (2:00 PM) | explainer | teal | Plazas libres, y cuánto fiarte del dato. | reco-card | data reliability / fresh data (reused shot) | queued |
+| 2026-12-02 | b (7:00 PM) | tip | cream | Baja al parking subterráneo. | - | Vialia underground open at Christmas | queued |
 
-Screenshots not yet used: zbe-page
+Screenshots not yet used: none
